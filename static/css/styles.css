@@ -1,10 +1,89 @@
 body {
   background-color: #90a4ae;
-  margin: 0;
-  align-items: center;
+  justify-content: center;
   text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+li {
+  list-style: none;
+}
+
+main {
+  border-left: 2px solid black;
+}
+
+nav {
+  position: fixed;
+  align-items: center;
+  height: 100vh;
+}
+nav div {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: center;
+}
+/* About */
+
+/* #about {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100%;
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
+} */
+
+/* #about div {
+  border: 4px solid black;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+} */
+/* #about h1 {
+  animation: showup 7s infinite;
+} */
+/* #about p {
+  width:0px;
+  animation: reveal 7s infinite;
+} */
+
+/* #about p span {
+  position: relative;
+  margin-left:-355px;
+  animation: slidein 7s infinite;
+} */
+/* @keyframes showup {
+  0% {opacity:0;}
+  20% {opacity:1;}
+  80% {opacity:1;}
+  100% {opacity:0;}
+} */
+
+/* @keyframes slidein {
+  0% { margin-left:-800px; }
+  20% { margin-left:-800px; }
+  35% { margin-left:0px; }
+  100% { margin-left:0px; }
+} */
+
+/* @keyframes reveal {
+  0% {opacity:0;width:0px;}
+  20% {opacity:1;width:0px;}
+  30% {width:355px;}
+  80% {opacity:1;}
+  100% {opacity:0;width:355px;} */
+}
 
 /* Slide Skills */
 
@@ -29,9 +108,9 @@ body {
   overflow: hidden;
 }
 
-/* #slideskills > *:first-child {
+#slideskills > *:first-child {
   animation: 12s slideskills infinite ease-in-out;
-} */
+}
 
 @keyframes slideskills {
   0% {margin-top: 10em}
