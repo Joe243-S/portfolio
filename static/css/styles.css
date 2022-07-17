@@ -1,6 +1,14 @@
 body {
   background-color: #90a4ae;
+  display: block;
+  margin: 0;
 }
+
+/* #education {
+  position: absolute;
+} */
+
+/* Slide Skills */
 
 .slide-item {
   width: 100%;
@@ -23,24 +31,32 @@ body {
   overflow: hidden;
 }
 
-#slideskills > *:first-child {
-  animation: 15s slideskills infinite ease-in-out;
-}
+/* #slideskills > *:first-child {
+  animation: 12s slideskills infinite ease-in-out;
+} */
 
 @keyframes slideskills {
   0% {margin-top: 10em}
-  7% {margin-top: 10em}
-  14% {margin-top: 0em}
-  21% {margin-top: 0em}
-  28% {margin-top: -10em}
-  35% {margin-top: -10em}
-  42% {margin-top: -20em}
-  49% {margin-top: -20em}
-  56% {margin-top: -30em}
-  63% {margin-top: -30em}
-  70% {margin-top: -40em}
-  77% {margin-top: -40em}
-  85% {margin-top: -50em}
-  92% {margin-top: -50em}
+  7.5% {margin-top: 10em}
+  15% {margin-top: 0em}
+  21.5% {margin-top: 0em}
+  29% {margin-top: -10em}
+  35.5% {margin-top: -10em}
+  43% {margin-top: -20em}
+  49.5% {margin-top: -20em}
+  57% {margin-top: -30em}
+  63.5% {margin-top: -30em}
+  71% {margin-top: -40em}
+  77.5% {margin-top: -40em}
+  86% {margin-top: -50em}
+  96% {margin-top: -50em}
   100% {margin-top: -60em}
+}
+
+/* Projects */
+
+.projects {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
