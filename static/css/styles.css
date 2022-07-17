@@ -43,7 +43,7 @@ body {
 }
 
 
-#projects * {box-sizing:border-box}
+#slideshow-container * {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
@@ -53,9 +53,9 @@ body {
 }
 
 /* Hide the images by default */
-/* .mySlides {
+.mySlides {
   display: none;
-} */
+} 
 
 /* Next & previous buttons */
 .prev, .next {
