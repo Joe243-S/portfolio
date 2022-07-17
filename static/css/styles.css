@@ -1,12 +1,10 @@
 body {
   background-color: #90a4ae;
-  display: block;
   margin: 0;
+  align-items: center;
+  text-align: center;
 }
 
-/* #education {
-  position: absolute;
-} */
 
 /* Slide Skills */
 
@@ -63,7 +61,8 @@ body {
 }
 
 .projects div {
-  border: 2px solid black;
+  border: 4px solid black;
+  border-radius: 20px;
   padding: 10px;
   margin: 10px;
 }
@@ -71,4 +70,5 @@ body {
 .projects div img {
   width: 100%;
   object-fit: cover;
+  border-image: 20px;
 }
