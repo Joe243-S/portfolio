@@ -48,13 +48,13 @@ header {
   height: 70vh;
 }
 
-a {
+.navbar-item {
   text-decoration: none;
   text-transform: uppercase;
   color: black;
 }
 
-a:hover {
+.navbar-item:hover {
   color: white;
 }
 
@@ -69,6 +69,22 @@ main section {
 
 /* About */
 
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px auto;
+  padding: 0 auto;
+}
+
+.contact-item > img:hover {
+  color: white;
+}
+.conatact-item img:hover {
+  background-color: steelblue;
+}
 /* #about {
   padding: 0;
   margin: 0;
