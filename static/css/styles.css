@@ -1,6 +1,6 @@
 /* Body */
 
-body {
+#body {
   display: grid;
   grid-template-columns: 1fr 80%;
   background-color: #E6E6FA;
@@ -12,7 +12,7 @@ body {
 
 /* Navbar */
 
-header {
+#header {
   background-image: linear-gradient(
     45deg, 
     lavender, 
@@ -60,14 +60,29 @@ header {
 
 /* Main */
 
-main section {
+#main section {
   border: 2px solid white;
   margin: 15px;
   background-color: lavender;
   padding: 0 20px;
+  letter-spacing: 0.1em;
+}
+
+#main h1 {
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
 }
 
 /* About */
+
+.location {
+  color: steelblue;
+  font-style: italic;
+}
+
+.contact-item {
+  text-decoration: none;
+}
 
 .contact {
   display: flex;
@@ -79,64 +94,8 @@ main section {
   padding: 0 auto;
 }
 
-.contact-item > img:hover {
-  color: white;
-}
-.conatact-item img:hover {
-  background-color: steelblue;
-}
-/* #about {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  width: 100%;
-  display:inline-block;
-  overflow:hidden;
-  white-space:nowrap;
-} */
 
-/* #about div {
-  border: 4px solid black;
-  border-radius: 20px;
-  padding: 10px;
-  margin: 10px;
-} */
-/* #about h1 {
-  animation: showup 7s infinite;
-} */
-/* #about p {
-  width:0px;
-  animation: reveal 7s infinite;
-} */
-
-/* #about p span {
-  position: relative;
-  margin-left:-355px;
-  animation: slidein 7s infinite;
-} */
-/* @keyframes showup {
-  0% {opacity:0;}
-  20% {opacity:1;}
-  80% {opacity:1;}
-  100% {opacity:0;}
-} */
-
-/* @keyframes slidein {
-  0% { margin-left:-800px; }
-  20% { margin-left:-800px; }
-  35% { margin-left:0px; }
-  100% { margin-left:0px; }
-} */
-
-/* @keyframes reveal {
-  0% {opacity:0;width:0px;}
-  20% {opacity:1;width:0px;}
-  30% {width:355px;}
-  80% {opacity:1;}
-  100% {opacity:0;width:355px;} */
-}
-
-/* Slide Skills */
+/* Skills */
 
 .slide-item {
   width: 100%;
@@ -148,7 +107,7 @@ main section {
 
 #slideskills {
   width: 100%;
-  height: 10em;
+  height: 11em;
   position: relative;
   overflow: hidden;
 }
@@ -159,26 +118,26 @@ main section {
   overflow: hidden;
 }
 
-/* #slideskills > *:first-child {
+#slideskills > *:first-child {
   animation: 12s slideskills infinite ease-in-out;
-} */
+}
 
 @keyframes slideskills {
-  0% {margin-top: 10em}
-  7.5% {margin-top: 10em}
+  0% {margin-top: 11em}
+  7.5% {margin-top: 11em}
   15% {margin-top: 0em}
   21.5% {margin-top: 0em}
-  29% {margin-top: -10em}
-  35.5% {margin-top: -10em}
-  43% {margin-top: -20em}
-  49.5% {margin-top: -20em}
-  57% {margin-top: -30em}
-  63.5% {margin-top: -30em}
-  71% {margin-top: -40em}
-  77.5% {margin-top: -40em}
-  86% {margin-top: -50em}
-  96% {margin-top: -50em}
-  100% {margin-top: -60em}
+  29% {margin-top: -11em}
+  35.5% {margin-top: -11em}
+  43% {margin-top: -22em}
+  49.5% {margin-top: -22em}
+  57% {margin-top: -33em}
+  63.5% {margin-top: -33em}
+  71% {margin-top: -44em}
+  77.5% {margin-top: -44em}
+  86% {margin-top: -55em}
+  96% {margin-top: -55em}
+  100% {margin-top: -66em}
 }
 
 /* Projects */
@@ -191,14 +150,35 @@ main section {
 }
 
 .projects div {
-  border: 4px solid black;
-  border-radius: 20px;
+  border: 2px solid white;
+  border-radius: 8px;
   padding: 10px;
   margin: 10px;
+  animation-name: background;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 .projects div img {
   width: 100%;
   object-fit: cover;
-  border-image: 20px;
+}
+
+@keyframes background {
+  0% {
+    background: lavender;
+  }
+  25% {
+    background: steelblue;
+  }
+  50% {
+    background: lavender;
+  }
+  75% {
+    background: steelblue;
+  }
+  100% {
+    background: lavender;
+  }
 }
