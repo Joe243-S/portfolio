@@ -2,7 +2,7 @@
 
 #body {
   display: grid;
-  grid-template-columns: 1fr 78%;
+  grid-template-columns: 0.9fr 78%;
   background-color: #E6E6FA;
   font-family: monospace;
   text-align: center;
