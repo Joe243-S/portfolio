@@ -250,3 +250,87 @@
 .slideproject2 > *:nth-child(2) {animation-delay: -8s}
 .slideproject2 > *:nth-child(3) {animation-delay: -4s}
 
+/* Experience */
+
+li {
+  list-style: none;
+}
+
+#experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.5rem auto;
+}
+
+.experience {
+  background-image: linear-gradient(
+    -45deg,
+    #E6E6FA,
+    lavender, 
+    steelBlue,
+    lavender, 
+    #E6E6FA);
+  width: 100%;
+  margin: 10px auto;
+}
+
+/* Education */
+
+#education {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.education {
+  background-image: linear-gradient(
+    45deg,
+    #E6E6FA,
+    lavender, 
+    white,
+    lavender, 
+    #E6E6FA);
+  width: 100%;
+  margin: 10px auto;
+}
+
+/* certificates */
+
+#certificates {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.certificate {
+  background-image: linear-gradient(
+    -45deg,
+    #E6E6FA,
+    lavender, 
+    deepskyblue,
+    lavender, 
+    #E6E6FA);
+  width: 100%;
+  margin: 10px auto;
+}
+
+/* languages */
+
+#languages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.language {
+  background-image: linear-gradient(
+    45deg,
+    #E6E6FA,
+    lavender, 
+    crimson,
+    lavender, 
+    #E6E6FA);
+  width: 100%;
+  margin: 10px auto;
+}
