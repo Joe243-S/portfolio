@@ -160,7 +160,7 @@
   align-items: center;
   flex-wrap: wrap;
   margin: 10px auto;
-  padding: 0 auto;
+  padding: 0 15px;
 }
 
 
@@ -458,6 +458,24 @@ li {
 }
 
 
+/* Footer */
+
+#footer {
+  font-style: italic;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  justify-items: center;
+}
+
+.author {
+  color: steelblue;
+  font-style: oblique;
+}
+
+.top {
+  text-decoration: none;
+}
 
 /* Media Width */
 
