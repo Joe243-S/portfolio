@@ -90,7 +90,7 @@
 
 .image {
   position: absolute;
-  padding: 5px 5px 5px 5px;
+  padding: 5px;
   margin-top: -95vh;
 }
 
@@ -471,12 +471,12 @@ li {
 
   .image {
     position: relative;
-    margin: 0 auto;
+    margin: 0 5px;
   }
 
   .profile {
     height: 15vh;
-    object-fit:contain;
+    object-fit:fill;
   }
 
   .link {
@@ -562,12 +562,12 @@ li {
 @media (min-width: 815px) and (max-height:495px) {
   .image {
     position: relative;
-    margin: 0 auto;
+    margin: 0 5px;
   }
 
   .profile {
     height: 22vh;
-    object-fit:contain;
+    object-fit:fill;
   }
   
   .link {
@@ -620,6 +620,15 @@ li {
   #header {
     height: 9vh;
   }
+
+  .image {
+    margin: 0 5px;
+  }
+
+  .profile {
+    object-fit:fill;
+  }
+
   .link {
     height: 92vh;
   }
