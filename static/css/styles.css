@@ -148,22 +148,20 @@
 
 .contact-item {
   text-decoration: none;
-}
-
-#about strong {
-  font-style: italic;
-  font-family: Arial;
+  cursor: pointer;
 }
 
 .contact {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   margin: 10px auto;
   padding: 0 auto;
 }
+
+
 
 
 /* Skills */
@@ -527,7 +525,6 @@ li {
     z-index: -1;
     margin-top: 55px;
   }
-
 
   /* Education */
 
