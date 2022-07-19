@@ -4,7 +4,7 @@
   display: grid;
   grid-template-columns: 0.9fr 78%;
   background-color: #E6E6FA;
-  font-family: monospace;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
   margin: 0;
   padding: 0;
@@ -165,6 +165,10 @@
 
 
 /* Skills */
+
+.skill {
+  text-transform:capitalize;
+}
 
 .slide-item {
   width: 100%;
