@@ -29,7 +29,7 @@
   margin: 8px 5%;
 }
 
-#menu__toggle, .logo {
+#menu__toggle {
   visibility: hidden;
 }
 
@@ -134,9 +134,9 @@
   overflow: hidden;
 }
 
-#slideskills > *:first-child {
+/* #slideskills > *:first-child {
   animation: 12s slideskills infinite ease-in-out;
-}
+} */
 
 @keyframes slideskills {
   0% {margin-top: 11em}
@@ -226,10 +226,10 @@
 }
 
 
-.slideproject1 > * {
+/* .slideproject1 > * {
   animation: 12s slideproject1 infinite;
   overflow: hidden;
-}
+} */
 
 @keyframes slideproject1 {
   0% {height: auto; padding: 0.5em 1em; border: none}
@@ -251,10 +251,10 @@
   border: thin solid white;
 }
 
-.slideproject2 > * {
+/* .slideproject2 > * {
   animation: 12s slideproject1 infinite;
   overflow: hidden;
-}
+} */
 
 .slideproject2 > *:nth-child(1) {animation-delay: 0s}
 .slideproject2 > *:nth-child(2) {animation-delay: -8s}
@@ -416,7 +416,7 @@ li {
   }
 
   #menu__toggle:checked ~ .link {
-    left: -40px !important;
+    left: -38px !important;
   }
 
   .menu__btn {
@@ -459,43 +459,37 @@ li {
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    height: 40px;
+    height: 8vh;
     opacity: 0.91;
   }
 
-  .logo {
-    position: relative;
-    font-size: 18px;
-    top: 0px;
-    left: 0px;
-  }
-
   .image {
-    margin-top: -90vh;
+    position: relative;
+    margin: 0 auto;
   }
 
   .profile {
-    height: 20vh;
-    left: 20%;
+    height: 15vh;
     object-fit: cover;
   }
 
   .link {
     left: -200%;
     top: -5vh;
-    width: 150px;
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     animation-name: background;
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     justify-items: center;
-    margin-top: 39px;
-    padding-left: 5%;
+    margin-top: 7.9vh;
     padding: 0 auto;
     transition-duration: .25s;
     position: relative;
-    padding-top: 25vh;
-    height: 70vh;
+    height: 93vh;
   }
 
   
@@ -540,19 +534,19 @@ li {
 }
 
 @media (max-width:575px) {
-  .profile {
-    left: 25%;
-  }
-  .link {
-    padding-left: 15%;
+  #menu__toggle:checked ~ .link {
+    left: -30px !important;
   }
 }
 
-@media (max-width:295px) {
-  .profile {
-    left: 35%;
+@media (max-width:370px) {
+  #menu__toggle:checked ~ .link {
+    left: -20px !important;
   }
-  .link {
-    padding-left: 25%;
+}
+
+@media (max-width:250px) {
+  #menu__toggle:checked ~ .link {
+    left: -11px !important;
   }
 }
