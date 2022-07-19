@@ -486,10 +486,8 @@ li {
   #header {
     position: fixed;
     width: 100%;
-    animation-name: background;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+    background-image: none;
+    background-color: steelblue;
     height: 8vh;
     opacity: 0.91;
     z-index: 2;
@@ -512,10 +510,7 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    animation-name: background;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+    background-color: steelblue;
     justify-items: center;
     margin-top: 7.9vh;
     padding: 0 auto;
