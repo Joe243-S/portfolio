@@ -127,9 +127,9 @@
   overflow: hidden;
 }
 
-/* #slideskills > *:first-child {
+#slideskills > *:first-child {
   animation: 12s slideskills infinite ease-in-out;
-} */
+}
 
 @keyframes slideskills {
   0% {margin-top: 11em}
@@ -219,10 +219,10 @@
 }
 
 
-/* .slideproject1 > * {
+.slideproject1 > * {
   animation: 12s slideproject1 infinite;
   overflow: hidden;
-} */
+}
 
 @keyframes slideproject1 {
   0% {height: auto; padding: 0.5em 1em; border: none}
@@ -243,10 +243,10 @@
   border-radius: 5px;
   border: thin solid white;
 }
-/* .slideproject2 > * {
+.slideproject2 > * {
   animation: 12s slideproject1 infinite;
   overflow: hidden;
-} */
+}
 
 .slideproject2 > *:nth-child(1) {animation-delay: 0s}
 .slideproject2 > *:nth-child(2) {animation-delay: -8s}
