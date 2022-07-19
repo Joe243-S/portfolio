@@ -503,10 +503,7 @@ li {
 
   #main {
     z-index: -1;
-  }
-
-  #main section {
-    padding-top: 33px;
+    margin-top: 55px;
   }
 
   /* Education */
