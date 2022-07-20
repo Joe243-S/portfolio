@@ -466,6 +466,9 @@ li {
   flex-direction: row;
   justify-content: space-evenly;
   justify-items: center;
+  flex-wrap: wrap;
+  margin: 15px auto;
+  padding: 0 auto;
 }
 
 .author {
@@ -475,7 +478,23 @@ li {
 
 .top {
   text-decoration: none;
+  padding-top: 10px;
 }
+
+.mti {
+  width: min-content;
+  padding-top: 2px;
+}
+
+.sz {
+  width: min-content;
+  padding-top: 4px;
+}
+
+#footer p {
+  padding-top: 5px;
+}
+
 
 /* Media Width */
 
