@@ -633,7 +633,7 @@ li {
     width: 100%;
     background-image: none;
     background-color: steelblue;
-    height: 8vh;
+    height: 7vh;
     opacity: 0.91;
     z-index: 9;
   }
@@ -657,11 +657,11 @@ li {
     align-items: center;
     background-color: steelblue;
     justify-items: center;
-    margin-top: 7.9vh;
+    margin-top: 7vh;
     padding: 0 auto;
     transition-duration: .25s;
     position: relative;
-    height: 95vh;
+    height: 98vh;
   }
 
   
@@ -781,7 +781,7 @@ li {
 
 /* Media Witdh and Height */
 
-@media (max-width: 815px) and (max-height:495px) {
+@media (max-width: 815px) and (max-height:525px) {
   #header {
     height: 9vh;
   }
@@ -795,49 +795,49 @@ li {
   }
 
   .link {
-    height: 94vh;
+    height: 96vh;
   }
 }
 
-@media (max-width: 815px) and (max-height:410px) {
+@media (max-width: 815px) and (max-height:445px) {
   #header {
     height: 10vh;
   }
   .link {
-    height: 93vh;
+    height: 95vh;
   }
 }
 
-@media (max-width: 815px) and (max-height:348px) {
+@media (max-width: 815px) and (max-height:370px) {
   #header {
     height: 11vh;
   }
 
   .link {
-    height: 92vh;
-    top: -6vh;
+    height: 91vh;
+    top: -5vh;
   }
 }
 
-@media (max-width: 815px) and (max-height:325px) {
+@media (max-width: 815px) and (max-height:340px) {
   #header {
-    height: 12vh;
+    height: 13vh;
   }
 
   .link {
-    height: 92vh;
-    top: -6.5vh;
+    height: 88vh;
+    top: -3vh;
   }
 }
 
 @media (max-width: 815px) and (max-height:290px) {
   #header {
-    height: 14vh;
+    height: 15vh;
   }
 
   .link {
-    height: 91vh;
-    top: -7.5vh;
+    height: 88vh;
+    top: -3vh;
   }
 }
 
@@ -849,9 +849,23 @@ li {
     visibility: hidden;
   }
   .link {
-    height: 95vh;
-    top: -18vh;
+    height: 75vh;
+    top: -3vh;
     padding-bottom: 15vh;
     justify-content: space-evenly;
   }
+
+  @media (max-width: 815px) and (max-height:200px) {
+    #header {
+      height: 22vh;
+    }
+    .image {
+      visibility: hidden;
+    }
+    .link {
+      height: 70vh;
+      top: -3vh;
+      padding-bottom: 20vh;
+      justify-content: space-evenly;
+    }
 }
