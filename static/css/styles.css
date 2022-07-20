@@ -1,7 +1,7 @@
 /* Body */
 
 html {
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 }
 
 #body {
@@ -133,7 +133,8 @@ html {
 /* Main */
 
 #main section {
-  border: 2px solid white;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
   margin: 15px;
   background-color: lavender;
   padding: 0 20px;
@@ -404,6 +405,11 @@ li {
     lavender, 
     #E6E6FA);
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  justify-items: center;
+  margin: 10px auto;
   position: sticky;
   padding: 1rem;
   bottom: 0;
@@ -419,6 +425,11 @@ li {
 
 .experience:nth-child(3) {
   z-index: 1;
+}
+
+.experience img {
+  position: absolute;
+  padding-top: 65px;
 }
 
 /* Education */
@@ -686,6 +697,17 @@ li {
 
   #main {
     margin-top: 55px;
+  }
+
+  /* Education */
+
+  .experience {
+    flex-direction: column;
+  }
+
+  .experience img {
+    position: relative;
+    padding-top: 5px;
   }
 
   /* Education */
