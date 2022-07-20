@@ -163,6 +163,44 @@
   padding: 0 15px;
 }
 
+.anime, .anime1 {
+  transform: scale(0.9);
+  display: inline-block;
+  color:  crimson;
+  text-transform: uppercase;
+}
+
+.anime {
+  animation: anime 1s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards infinite
+    alternate-reverse;
+}
+
+.anime1 {
+  animation: anime1 1s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards infinite
+    alternate-reverse;
+}
+
+@keyframes anime {
+  0% {
+    transform: scale(0.9);
+  }
+  80%,
+  100% {
+    transform: scale(1) rotateZ(-3deg);
+  }
+}
+
+@keyframes anime1 {
+  0% {
+    transform: scale(0.9);
+  }
+  80%,
+  100% {
+    transform: scale(1) rotateZ(3deg);
+  }
+}
+
+
 
 /* Skills */
 
@@ -525,7 +563,7 @@ li {
     width: 100%;
     background-image: none;
     background-color: steelblue;
-    height: 8vh;
+    height: 7vh;
     opacity: 0.91;
     z-index: 2;
   }
