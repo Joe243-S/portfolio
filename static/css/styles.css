@@ -662,7 +662,7 @@ li {
     width: 100%;
     background-image: none;
     background-color: steelblue;
-    height: 7vh;
+    height: 8vh;
     opacity: 0.91;
     z-index: 9;
   }
@@ -686,7 +686,7 @@ li {
     align-items: center;
     background-color: steelblue;
     justify-items: center;
-    margin-top: 7vh;
+    margin-top: 6.9vh;
     padding: 0 auto;
     transition-duration: .25s;
     position: relative;
@@ -866,22 +866,22 @@ li {
 
   .link {
     height: 88vh;
-    top: -3vh;
+    top: -4vh;
   }
 }
 
-@media (max-width: 815px) and (max-height:290px) {
+@media (max-width: 815px) and (max-height:295px) {
   #header {
     height: 15vh;
   }
 
   .link {
     height: 88vh;
-    top: -3vh;
+    top: -4vh;
   }
 }
 
-@media (max-width: 815px) and (max-height:250px) {
+@media (max-width: 815px) and (max-height:255px) {
   #header {
     height: 20vh;
   }
@@ -891,7 +891,7 @@ li {
   .link {
     height: 75vh;
     top: -3vh;
-    padding-bottom: 15vh;
+    padding-bottom: 20vh;
     justify-content: space-evenly;
   }
 }
