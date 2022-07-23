@@ -487,6 +487,10 @@ li {
   border-radius: 10px;
 }
 
+.form textarea {
+  resize: none;
+}
+
 .form input {
   height: 20px;
 }
