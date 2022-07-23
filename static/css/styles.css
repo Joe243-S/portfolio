@@ -311,7 +311,7 @@ li {
   text-transform: uppercase;
   color: black;
   font-size: 2.5em;
-  filter: contrast(15);
+  filter: contrast(1);
   margin: auto;
   z-index: 7;
 }
@@ -321,33 +321,34 @@ position: absolute;
 top: 70vh;
 left: 37.5%;
 transform: translate(-50%, -50%);
-animation: switch 50s infinite ease-in-out;
+animation: switch 21s infinite ease-in-out;
 width: 90%;
 margin: auto;
 line-height: 2rem;
+letter-spacing: 10px;
 }
 
 .word:nth-child(1) {
-  animation-delay: -48s;
+  animation-delay: -18s;
 }
 
 .word:nth-child(2) {
-  animation-delay: -40s;
+  animation-delay: -15s;
 }
 
 .word:nth-child(3) {
-  animation-delay: -32s;
+  animation-delay: -12s;
 }
 
 .word:nth-child(4) {
-  animation-delay: -24s;
+  animation-delay: -9s;
 }
 
 .word:nth-child(5) {
-  animation-delay: -16s;
+  animation-delay: -6s;
 }
 .word:nth-child(6) {
-  animation-delay: -8s;
+  animation-delay: -3s;
 }
 
 
@@ -356,11 +357,11 @@ line-height: 2rem;
   5%,
   100% {
     filter: blur(0px);
-    opacity: 1;
+    opacity: 5;
   }
   50%,
   80% {
-    filter: blur(65px);
+    filter: blur(60px);
     opacity: 0;
   }
 }
