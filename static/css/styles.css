@@ -309,8 +309,8 @@ html {
 
 .blob-effect {
   position: absolute;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   display: flex;
   justify-content: center;
   justify-items: center;
@@ -391,7 +391,7 @@ html {
 
 .div-container {
   position: relative;
-  padding: 10px 20px;
+  padding: 40px 60px;
   color: #E6E6FA;
   text-align: center;
   transition: 0.5s;
@@ -407,7 +407,7 @@ html {
   display: inline-block;
   margin-top: 2.5px;
   border: 2px solid #E6E6FA;
-  padding: 1.5px 4.5px;
+  padding: 6px 18px;
   text-decoration: none;
   color: #E6E6FA;
   font-weight: 600;
