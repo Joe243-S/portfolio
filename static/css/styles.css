@@ -1078,7 +1078,62 @@ html {
 #send * {
   margin: 0;
   padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#send {
   width: 100vw;
   height: 100vh;
   background-color: steelblue;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin: auto;
+  padding: auto;
+}
+
+.send {
+  position: relative;
+  width: 70%;
+  height: 200px;
+  border: thin solid #E6E6FA;
+  border-radius: 10px;
+  background: lavender;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  margin: auto;
+  padding: auto;
+  z-index: 10;
+}
+
+
+.success {
+  font-size: 25px;
+  font-weight: 510;
+  color: steelblue;
+}
+
+.back {
+  font-size: 13px;
+  font-family: monospace;
+  color: gray;
+}
+
+.back a {
+  text-decoration: none;
+  color: lightseagreen;
+}
+
+.back a:hover {
+  color: steelblue;
+}
+
+.menu:hover {
+  animation: anime1 1s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards infinite alternate-reverse;
 }
