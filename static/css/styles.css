@@ -176,7 +176,7 @@ html {
   position: absolute;
   z-index: 8;
   bottom: 5vh;
-  left: 35vw;
+  left: 34.8vw;
   animation: moveDown 1.5s ease-in-out 1.5s backwards infinite;
 }
 
