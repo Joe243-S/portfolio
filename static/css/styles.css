@@ -176,7 +176,7 @@ html {
   position: absolute;
   z-index: 8;
   bottom: 5vh;
-  right: 61.5%;
+  left: 32.5vw;
   animation: moveDown 1.5s ease-in-out 1.5s backwards infinite;
 }
 
@@ -880,7 +880,7 @@ html {
     margin-left: 0px;
   }
   .intro-image {
-    right: 50%;
+    left: 46vw;
   }
   .blob-effect {
     top: 50px;
@@ -892,17 +892,26 @@ html {
   #menu__toggle:checked ~ .link {
     left: -30px !important;
   }
+  .intro-image {
+    left: 43vw;
+  }
 }
 
 @media (max-width:370px) {
   #menu__toggle:checked ~ .link {
     left: -20px !important;
   }
+  .intro-image {
+    left: 38vw;
+  }
 }
 
 @media (max-width:250px) {
   #menu__toggle:checked ~ .link {
     left: -11px !important;
+  }
+  .intro-image {
+    left: 36vw;
   }
 }
 
@@ -1058,7 +1067,6 @@ html {
     padding-bottom: 35vh;
     justify-content: space-evenly;
   }
-
   .contact img {
     width: 16px;
     height: 16px;
